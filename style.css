@@ -553,8 +553,8 @@ textarea.form-control {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
-  gap: 40px;
+  grid-template-columns: 3fr 1.5fr 1.5fr 2.5fr;
+  gap: 30px;
   margin-bottom: 60px;
 }
 
@@ -566,8 +566,8 @@ textarea.form-control {
 }
 
 .footer-logo img {
-  width: 32px;
-  filter: brightness(0) invert(1);
+  width: 36px;
+  border-radius: 4px;
 }
 
 .footer-logo span {
