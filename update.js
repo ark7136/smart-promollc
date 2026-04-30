@@ -57,7 +57,7 @@ policyFiles.forEach(file => {
         
         // Replace company specific details
         content = content.replace(/Anchorpoint Solutions/g, 'Smart Promo LLC');
-        content = content.replace(/\+1 \(929\) 755 3786/g, '+1 (713) 226-9651');
+        content = content.replace(/\+1 \(929\) 755 3786/g, '+1 (713) 919-9690');
         content = content.replace(/info@anchorpoint-solutions\.us/g, 'info@smart-promollc.us');
         content = content.replace(/anchorpoint-solutions\.us/g, 'smart-promollc.us');
         content = content.replace(/Anchorpoint/g, 'Smart Promo LLC');
