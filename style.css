@@ -692,13 +692,17 @@ textarea.form-control {
   font-family: var(--font-heading);
   font-weight: 700;
   color: var(--accent-primary);
-  white-space: nowrap;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
 }
 
 .pricing-price span {
-  font-size: 1rem;
+  font-size: 0.95rem;
   color: var(--text-muted);
   font-weight: 500;
+  margin-left: 5px;
 }
 
 .pricing-features {
