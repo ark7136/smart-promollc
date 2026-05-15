@@ -688,10 +688,11 @@ textarea.form-control {
 }
 
 .pricing-price {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-family: var(--font-heading);
   font-weight: 700;
   color: var(--accent-primary);
+  white-space: nowrap;
 }
 
 .pricing-price span {
